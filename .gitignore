@@ -1,0 +1,57 @@
+# Node modules
+node_modules/
+
+# Config serviceAccount
+config/serviceAccount-netco.json
+config/serviceAccount-ovg.json
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Dependency directories
+jspm_packages/
+
+# Environment variables
+.env
+
+# Build output
+dist/
+build/
+tmp/
+temp/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# Testing
+coverage/
+*.lcov
+
+# Misc
+*.tgz
+*.gz
+
+# Debugging
+*.pid
+*.seed
+
+# Package distributions
+*.tar.gz
+*.tgz
+*.zip
+
+# Optional npm cache directory
+.npm/
